@@ -113,7 +113,7 @@ export const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/metaplex-logo.svg'} />
+      <img src={'/DINOS.png'} />
     </Link>
   );
 };
@@ -139,7 +139,7 @@ export const AppBar = () => {
           {connected && (
             <>
               <CurrentUserBadge
-                showBalance={false}
+                showBalance={true}
                 showAddress={true}
                 iconSize={24}
               />
