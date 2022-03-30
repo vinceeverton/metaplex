@@ -301,8 +301,8 @@ function InnerAdminView({
           </Col>
           <Col span={3}>
             <Switch
-              checkedChildren="Public"
-              unCheckedChildren="Whitelist Only"
+              checkedChildren="WhitelistOnly"
+              unCheckedChildren="public"
               checked={newStore.public}
               onChange={val => {
                 setNewStore(() => {
