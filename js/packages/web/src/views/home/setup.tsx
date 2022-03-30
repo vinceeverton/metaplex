@@ -13,7 +13,7 @@ import { useMeta } from '../../contexts';
 import { SetupVariables } from '../../components/SetupVariables';
 
 export const SetupView = () => {
-  const [isInitalizingStore, setIsInitalizingStore] = useState(false);
+  const [isInitalizingStore, setIsInitalizingStore] = useState(true);
   const connection = useConnection();
   const { store } = useMeta();
   const { setStoreForOwner } = useStore();
